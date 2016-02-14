@@ -1,0 +1,69 @@
+//---------------------------------------------------
+// Programmer:   	Hassan Benjamin Shirani
+// Course:       	COSC 1437 Section 006
+// Semester:     	Spring 2016
+// Assignment #: 	05
+// Due Date:     	February 17, 2016
+//---------------------------------------------------
+
+import javax.swing.*;   // for GUIs using swing
+
+public class StudentTester {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+			// declare local variables to be used in program
+		String street, town, state, zipCodeText;
+		String firstName, lastName, testScore1Text;
+		String testScore2Text, testScore3Text;
+		int zipCode, testScore1, testScore2, testScore3;
+		
+		Address school = new Address ("800 Lancaster Ave",
+									"Villanova", "PA", 19085);
+		
+		
+			// enter student information via
+			// option panes
+		
+		
+			// prompt and read in first
+			// name and last name of student
+
+		
+			// prompt and read in three test scores of
+			// student and convert each to an integer
+
+		
+			// instantiate an object about
+			// student's home address
+
+		
+			// instantiate an object about student (home and
+			// school address and test scores)
+
+		
+			// print out info about student using option pane
+
+		
+			// replace test score two with another value
+
+		
+			// now update test score number two
+
+		
+			// show in option pane that a new score for test
+			// two has taken place
+
+		
+			// print out info about student using option pane
+
+		
+		JOptionPane.showMessageDialog(null,
+				"This program was written by Dr. Castaneda" +
+				"\nEnd of program.");
+		
+	}   // end method main
+
+}   // end class StudentTester
